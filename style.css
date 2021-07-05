@@ -1,6 +1,43 @@
 body{
-    max-width: 0;
-    padding: 0;
-    text-decoration: none;
     font-family: 'Roboto Mono', monospace;
+}
+
+
+#banner_part{
+    display: flex;
+    
+}
+
+.half_width{
+    width: 47%;
+    margin: 3%;
+
+}
+
+.half_width h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+
+
+.half_width p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+}
+.hedding_part{
+    color: rgb(255, 223, 80);
+
+}
+
+
+.button{
+    padding: 10px 20px;
+    background: rgb(220, 167, 20);
+    text-decoration: none;
+    
 }
