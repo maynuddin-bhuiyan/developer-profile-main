@@ -1,28 +1,54 @@
 body{
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
+ 
 }
 
 
 #banner_part{
     display: flex;
+    margin-bottom: 50px;
+    background-image: url(imeges/top-banner.png);
+    background-repeat: no-repeat;
     
 }
 
+#about_part{
+    display: flex;
+    margin-bottom: 50px;
+    background-image: url(imeges/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.experiences_lebal{
+    display: flex;
+    margin-bottom: 100px;
+    background-image: url(imeges/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .half_width{
     width: 47%;
     margin: 3%;
 
 }
 
-.half_width h1{
+ h1{
     font-size: 50px;
     font-weight: 700;
 
 }
 
+.experiences_lebal div {
+    box-shadow: 20px 7px 50px grey;
+    padding: 20px;
+}
 
 
-.half_width p{
+
+p{
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -30,14 +56,61 @@ body{
 
 }
 .hedding_part{
-    color: rgb(255, 223, 80);
+    color: rgb(255, 130, 80);
 
 }
 
 
 .button{
-    padding: 10px 20px;
+    padding: 15px 20px;
     background: rgb(220, 167, 20);
     text-decoration: none;
+    border-radius: 10px;
     
+}
+
+
+#stack_web{
+
+}
+
+#stack_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.packages{
+    display: flex;
+}
+
+#half_package {
+    background-color: rgb(194, 194, 194);
+    margin-left: 3%;
+    border-radius: 20px;
+    height: 470px;
+    padding: 25px;
+    margin-bottom: 100px;
+    width: 25%;
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 10px;
+    box-shadow: 7px 7px 30px grey;
+}
+
+#half_package h1{
+    font-size: 30px;
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 50px;
 }
